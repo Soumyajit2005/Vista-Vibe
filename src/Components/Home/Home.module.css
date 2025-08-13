@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 10%;
+    padding: 110px 94px;
+    padding-right: 170px;
+    padding-top: 70px;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 10px;
+}
+
+.leftContainer h3{
+    font-size: 18px;
+    color: #45CAC0;
+}
+
+.leftContainer h1{
+    font-size: 81px;
+}
+
+.leftContainer h1 span{
+    color: #45CAC0;
+}
+
+.leftContainer hr{
+    width: 18%;
+    background-color: #45CAC0;
+    border: none;
+    height: 2px; /* Set thickness */
+}
+
+.leftContainer p{
+    font-size: 16px;
+    width: 43vw;
+    color: #A0A1A1;
+}
+
+.rightContainer img{
+    width: 20vw;
+    border-radius: 60px;
+    box-shadow: 37px 41px 69.2px -5px #0fe5a582;
+    border: none;
+}

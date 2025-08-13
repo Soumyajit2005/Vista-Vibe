@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* Optionally, add a background color overlay */
+  background-color: rgba(0, 0, 0, 0.737); /* Dark overlay */
+  background-blend-mode: overlay;
+  /* overflow-x: hidden; */
+}

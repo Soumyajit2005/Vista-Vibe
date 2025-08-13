@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 94px;
+    color: var(--color-secondary);
+}
+
+.navheading{
+    margin-right: 21%;
+    text-align: center;
+}
+
+.navheading h1{
+    font-size: 33px;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 87px;
+    
+}
+
+.navlinks li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+.searchicon img{
+    width: 23px;
+}
