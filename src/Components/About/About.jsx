@@ -56,7 +56,7 @@ const About = () => {
       <div className={styles.additionalInfo}>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/pleasure.png")} alt="cleanCode" />
+            <img src={getImageUrl("about/project.png")} alt="cleanCode" />
             <h1 className={styles.infoHeading}>PROJECT</h1>
           </div>
           <div className={styles.infoCount}>300+</div>
@@ -64,23 +64,23 @@ const About = () => {
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
             <img src={getImageUrl("about/pleasure.png")} alt="cleanCode" />
-            <h1 className={styles.infoHeading}>PROJECT</h1>
+            <h1 className={styles.infoHeading}>PLEASURE</h1>
           </div>
-          <div className={styles.infoCount}>300+</div>
+          <div className={styles.infoCount}>8.9</div>
         </div>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/pleasure.png")} alt="cleanCode" />
-            <h1 className={styles.infoHeading}>PROJECT</h1>
+            <img src={getImageUrl("about/customers.png")} alt="cleanCode" />
+            <h1 className={styles.infoHeading}>CUSTOMER</h1>
           </div>
-          <div className={styles.infoCount}>300+</div>
+          <div className={styles.infoCount}>3000+</div>
         </div>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/pleasure.png")} alt="cleanCode" />
-            <h1 className={styles.infoHeading}>PROJECT</h1>
+            <img src={getImageUrl("about/teamMembers.png")} alt="cleanCode" />
+            <h1 className={styles.infoHeading}>TEAM</h1>
           </div>
-          <div className={styles.infoCount}>300+</div>
+          <div className={styles.infoCount}>23</div>
         </div>
       </div>
     </>

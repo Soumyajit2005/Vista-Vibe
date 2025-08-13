@@ -96,7 +96,7 @@
 .additionalInfo {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 175px;
   color: white;
   width: 60vw;
   margin: auto;
@@ -126,4 +126,10 @@
 .infoBox .infoContent h1 {
   color: var(--text-secondary);
   font-size: 21px;
+}
+
+.infoCount{
+  font-size: 46px;
+  color: var(--color-secondary);
+  font-weight: bolder;
 }

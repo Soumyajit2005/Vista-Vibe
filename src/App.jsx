@@ -1,8 +1,9 @@
-import  styles from './App.module.css';
-import About from './Components/About/About';
-import Home from './Components/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import Services from './Components/Services/Services';
+import styles from "./App.module.css";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Home from "./Components/Home/Home";
+import Navbar from "./Components/Navbar/Navbar";
+import Services from "./Components/Services/Services";
 
 const App = () => {
   return (
@@ -11,8 +12,9 @@ const App = () => {
       <Home />
       <Services />
       <About />
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
