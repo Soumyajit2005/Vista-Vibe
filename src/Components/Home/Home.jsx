@@ -145,11 +145,27 @@ const Home = () => {
         </p>
 
         <div className={styles.ctaButtons}>
-          <button className={styles.primaryBtn}>
+          <button 
+            className={styles.primaryBtn}
+            onClick={() => {
+              const contactSection = document.getElementById('contact');
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
             <span>Get Started</span>
             <div className={styles.btnRipple}></div>
           </button>
-          <button className={styles.secondaryBtn}>
+          <button 
+            className={styles.secondaryBtn}
+            onClick={() => {
+              const servicesSection = document.getElementById('services');
+              if (servicesSection) {
+                servicesSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
             <span>View Portfolio</span>
             <div className={styles.btnGlow}></div>
           </button>

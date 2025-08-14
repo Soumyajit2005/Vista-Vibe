@@ -112,7 +112,15 @@ const Services = () => {
           </p>
         </div>
 
-        <button className={styles.viewAllBtn}>
+        <button 
+          className={styles.viewAllBtn}
+          onClick={() => {
+            const contactSection = document.getElementById('contact');
+            if (contactSection) {
+              contactSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+        >
           <span>VIEW ALL SERVICES</span>
           <div className={styles.btnIcon}>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -172,7 +180,15 @@ const Services = () => {
               </div>
 
               <div className={styles.cardFooter}>
-                <button className={styles.learnMoreBtn}>
+                <button 
+                  className={styles.learnMoreBtn}
+                  onClick={() => {
+                    const contactSection = document.getElementById('contact');
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
                   <span>Learn More</span>
                   <div className={styles.btnArrow}>→</div>
                 </button>

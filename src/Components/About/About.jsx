@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <>
-      <section className={styles.container}>
+      <section id="about" className={styles.container}>
         <div className={styles.leftContainer}>
           <img src={getImageUrl("about/aboutBg.png")} alt="aboutBg" />
         </div>
@@ -40,8 +40,7 @@ const About = () => {
                   src={getImageUrl("about/mordernDesign.png")}
                   alt="mordernDesign"
                 />
-
-                <h3>Mordern Design</h3>
+                <h3>Modern Design</h3>
               </div>
               <div className={styles.featureContent}>
                 <p>
@@ -56,28 +55,28 @@ const About = () => {
       <div className={styles.additionalInfo}>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/project.png")} alt="cleanCode" />
+            <img src={getImageUrl("about/project.png")} alt="project" />
             <h1 className={styles.infoHeading}>PROJECT</h1>
           </div>
           <div className={styles.infoCount}>300+</div>
         </div>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/pleasure.png")} alt="cleanCode" />
+            <img src={getImageUrl("about/pleasure.png")} alt="pleasure" />
             <h1 className={styles.infoHeading}>PLEASURE</h1>
           </div>
           <div className={styles.infoCount}>8.9</div>
         </div>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/customers.png")} alt="cleanCode" />
+            <img src={getImageUrl("about/customers.png")} alt="customers" />
             <h1 className={styles.infoHeading}>CUSTOMER</h1>
           </div>
           <div className={styles.infoCount}>3000+</div>
         </div>
         <div className={styles.infoBox}>
           <div className={styles.infoContent}>
-            <img src={getImageUrl("about/teamMembers.png")} alt="cleanCode" />
+            <img src={getImageUrl("about/teamMembers.png")} alt="teamMembers" />
             <h1 className={styles.infoHeading}>TEAM</h1>
           </div>
           <div className={styles.infoCount}>23</div>
