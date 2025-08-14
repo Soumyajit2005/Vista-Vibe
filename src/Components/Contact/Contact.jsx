@@ -119,13 +119,13 @@ const Contact = () => {
     {
       icon: '📱',
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 9062435655',
+      link: 'tel:+919062435655'
     },
     {
       icon: '📍',
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Kolkata, India',
       link: '#'
     }
   ];
